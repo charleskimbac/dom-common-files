@@ -1,4 +1,4 @@
-/*  v2.9.2025 from https://github.com/charleskimbac/common-files
+/*  v.2025.2.9 from https://github.com/charleskimbac/common-files
     whenever url changes, send "locationchange" event.
     
     add `"world": "MAIN"` in the content_script key in manifest.json. this is to access the "history" world object.

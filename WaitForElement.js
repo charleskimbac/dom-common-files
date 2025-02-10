@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 
-/*  v2.9.2025 from https://github.com/charleskimbac/common-files
+/*  v.2025.2.9 from https://github.com/charleskimbac/common-files
     wait for an element to appear in the DOM, or return it if already present. 
 
     selector: query selector string
