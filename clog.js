@@ -1,19 +1,19 @@
 /* eslint-disable no-unused-vars */
 
-/* 
-  from https://github.com/charleskimbac/common-files
+/* v2.9.2025 from https://github.com/charleskimbac/common-files
+  console.log alternative so we can easily filter in console with TAG_NAME.
 
-  console.log alternative so we can easily filter in console with the tagName
-
-  this is run first in the manifest, so just call the function as needed, no imports needed
+  prints:
+  [TAGNAME] purpose
+  [TAGNAME] purpose - ...values
 */
 
-const tagName = "TAGNAME";
+const TAG_NAME = "TAGNAME";
 
 function clog(purpose, ...values) {
   if (values.length == 0) {
-    console.log(`[${tagName}]`, purpose); // prints: [TAGNAME] doingThis
+    console.log(`[${TAG_NAME}]`, purpose); // prints: [TAGNAME] purpose
   } else {
-    console.log(`[${tagName}]`, purpose, "-", ...values); // prints: [TAGNAME] doingThis - valuesToPrint
+    console.log(`[${TAG_NAME}]`, purpose, "-", ...values); // prints: [TAGNAME] purpose - valuesToPrint
   }
 }
