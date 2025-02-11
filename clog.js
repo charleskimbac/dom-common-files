@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 
-/* v.2025.2.9 from https://github.com/charleskimbac/common-files
+/* v2025.2.9 from https://github.com/charleskimbac/common-files
   console.log alternative so we can easily filter in console with TAG_NAME.
 
   prints:
