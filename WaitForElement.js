@@ -1,7 +1,5 @@
-/* eslint-disable no-unused-vars */
-
-/*  v2025.2.9 from https://github.com/charleskimbac/common-files
-    wait for an element to appear in the DOM, or return it if already present. 
+/*  v2025.5.2 from https://github.com/charleskimbac/dom-common-files
+    wait for an element to appear in the DOM, or return it if already present.
 
     selector: query selector string
     timeoutDuration: time (ms) until function will timeout and return null
