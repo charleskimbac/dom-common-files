@@ -1,8 +1,8 @@
-/* v2025.5.2 from https://github.com/charleskimbac/dom-common-files
+/* v2025.5.3 from https://github.com/charleskimbac/dom-common-files
   console.log alternative so we can easily filter in console with "[<TAG_NAME>]".
 
   purpose: string
-  values: string[]
+  values: any[]
 
   prints:
   [<TAGNAME>] <purpose>
